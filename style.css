@@ -1,22 +1,115 @@
 body{
   margin:0;
   padding:0;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+.main{
+  margin: 7%;
+}
+
+a{
+  text-decoration: none;
 }
 
 .title{
-  font-size: 100px;
-  color: blue; 
+  font-size: 200px;
+  color: rgb(99, 207, 90); 
   text-align: center;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 7%;
+  
 }
 
+
 .idioms{
-position: absolute;
 color:black;
+text-align: center;
+margin: 2%;
+text-decoration: none;
+position: absolute;
+}
+
+.idiom_phrase{
+  color:rgb(57, 176, 223);
+  text-align: center;
+  margin: 2%;
+  font-size: 100px;
 }
 
 .idioms:hover{
   font-style: italic;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.setimages{
+  max-width: 150px; 
+  max-height:150px; 
+  padding:10px;
+  margin-top: 5%;
+  filter: drop-shadow(30px 30px 10px rgb(0, 0, 0));
+}
+
+
+.spercent{
+  position: absolute;
+  color:black;
+}
+
+.setimages_first{
+  opacity: 0%;
+  width: 100px;
+  height:100px;
+}
+
+#setimages_1_1{
+  opacity: 0%;
+}
+
+#setimages_1_2{
+  opacity: 0%;
+}
+
+#setimages_1_3{
+  opacity: 0%;
+}
+
+#setimages_1_4{
+  opacity: 0%;
+}
+
+#setimages_1_5{
+  opacity: 0%;
+}
+
+
+#setimages_1_6{
+  opacity: 0%;
+}
+
+#setimages_1_7{
+  opacity: 0%;
+}
+
+#setimages_1_8{
+  opacity: 0%;
+}
+
+
+#setimages_1_9{
+  opacity: 0%;
+}
+
+
+#setimages_1_10{
+  opacity: 0%;
 }
