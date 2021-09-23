@@ -1,0 +1,22 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+.title{
+  font-size: 100px;
+  color: blue; 
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.idioms{
+position: absolute;
+color:black;
+}
+
+.idioms:hover{
+  font-style: italic;
+}
