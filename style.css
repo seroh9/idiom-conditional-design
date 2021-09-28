@@ -1,7 +1,8 @@
 body{
   margin:0;
   padding:0;
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: 'Playfair Display', serif;
+  background-color: rgb(255, 255, 255);
 }
 
 .main{
@@ -13,14 +14,24 @@ a{
 }
 
 .title{
-  font-size: 200px;
+  font-size: 170px;
   color: rgb(99, 207, 90); 
   text-align: center;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 7%;
-  
+  padding-top: 8%;
+}
+
+.title:hover{
+  font-style: italic;
+}
+
+.information{
+text-align:center; 
+font-size: 20px;
+padding-top: 2%;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -30,13 +41,18 @@ text-align: center;
 margin: 2%;
 text-decoration: none;
 position: absolute;
+font-family: Arial, Helvetica, sans-serif;
+/* font-family: 'Nunito', sans-serif; */
 }
 
 .idiom_phrase{
-  color:rgb(57, 176, 223);
+color: black; 
   text-align: center;
   margin: 2%;
-  font-size: 100px;
+  padding-top: 50px;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
 }
 
 .idioms:hover{
@@ -52,11 +68,17 @@ position: absolute;
 }
 
 .setimages{
-  max-width: 150px; 
-  max-height:150px; 
+  position: relative;
+  max-width: 200px; 
+  max-height:200px; 
   padding:10px;
-  margin-top: 5%;
-  filter: drop-shadow(30px 30px 10px rgb(0, 0, 0));
+  margin-top: 6%;
+  filter: drop-shadow(10px 10px 10px rgb(88, 88, 88));
+}
+
+.imagepercent{
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
@@ -71,45 +93,67 @@ position: absolute;
   height:100px;
 }
 
-#setimages_1_1{
+#setimages_1_1, #setimages_1_2, #setimages_1_3,#setimages_1_4, #setimages_1_5, #setimages_1_6, #setimages_1_7, #setimages_1_8, #setimages_1_9, #setimages_1_10, #setimages_1_11, #setimages_1_12,#setimages_1_13,#setimages_1_14,#setimages_1_15,#setimages_1_16,#setimages_1_17,#setimages_1_18, #setimages_1_19, #setimages_1_20, #setimages_1_21, #setimages_1_22, #setimages_1_23, #setimages_1_24, #setimages_1_25{
   opacity: 0%;
 }
 
-#setimages_1_2{
-  opacity: 0%;
+.setimages{
+  
+animation: sidetoside 5s infinite;
 }
 
-#setimages_1_3{
-  opacity: 0%;
-}
+@keyframes sidetoside {
+  
+    0% {
+     left:0px;  
+    } 
+    50% {
+      left:100px; 
+    }
+    100% { 
+      left: 0px; 
+    }
+  
+  }
+  
 
-#setimages_1_4{
-  opacity: 0%;
-}
+  .nextidiom{
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    background-color:rgb(99, 207, 90);
+    border: none;
+    position: relative;
+    right: 0; 
+  }
 
-#setimages_1_5{
-  opacity: 0%;
-}
+  .idiominfopage{
+   color: black; 
+   text-align: center;
+   margin: 2%;
+   padding-top: 50px;
+   font-size: 50px;
+   padding-bottom: 0px;
+   font-family: 'Playfair Display', serif;
+   font-style: italic;
+  }
 
+  .information2{
+    padding-top: 1%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+  }
 
-#setimages_1_6{
-  opacity: 0%;
-}
+  .infolink{
+    color: black; 
+    text-decoration: none;
+  }
 
-#setimages_1_7{
-  opacity: 0%;
-}
-
-#setimages_1_8{
-  opacity: 0%;
-}
-
-
-#setimages_1_9{
-  opacity: 0%;
-}
-
-
-#setimages_1_10{
-  opacity: 0%;
-}
+  .infolink:hover{
+    font-style: italic; 
+    text-decoration: underline;
+  }

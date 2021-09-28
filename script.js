@@ -1,6 +1,9 @@
+
+
+
 function random_text_size1(min, max){
   min = Math.ceil(15);
-  max = Math.floor(100);
+  max = Math.floor(20);
   var txt = Math.floor(Math.random() * (max - min) + min); 
 var txtSize= txt + "px";
   console.log(txtSize);
@@ -9,8 +12,8 @@ var txtSize= txt + "px";
 random_text_size1();
 
 function random_text_size2(min, max){
-  min = Math.ceil(15);
-  max = Math.floor(100);
+  min = Math.ceil(5);
+  max = Math.floor(40);
   var txt = Math.floor(Math.random() * (max - min) + min); 
 var txtSize= txt + "px";
   console.log(txtSize);
@@ -19,8 +22,8 @@ var txtSize= txt + "px";
 random_text_size2();
 
 function random_text_size3(min, max){
-  min = Math.ceil(15);
-  max = Math.floor(20);
+  min = Math.ceil(10);
+  max = Math.floor(30);
   var txt = Math.floor(Math.random() * (max - min) + min); 
 var txtSize= txt + "px";
   console.log(txtSize);
@@ -40,7 +43,7 @@ random_text_size4();
 
 function random_text_size5(min, max){
   min = Math.ceil(15);
-  max = Math.floor(70);
+  max = Math.floor(60);
   var txt = Math.floor(Math.random() * (max - min) + min); 
 var txtSize= txt + "px";
   console.log(txtSize);
@@ -49,7 +52,7 @@ var txtSize= txt + "px";
 random_text_size5();
 
 function random_text_size6(min, max){
-  min = Math.ceil(15);
+  min = Math.ceil(11);
   max = Math.floor(20);
   var txt = Math.floor(Math.random() * (max - min) + min); 
 var txtSize= txt + "px";
@@ -60,7 +63,7 @@ random_text_size6();
 
 function random_text_size7(min, max){
   min = Math.ceil(15);
-  max = Math.floor(100);
+  max = Math.floor(80);
   var txt = Math.floor(Math.random() * (max - min) + min); 
 var txtSize= txt + "px";
   console.log(txtSize);
@@ -80,7 +83,7 @@ random_text_size8();
 
 function random_text_size9(min, max){
   min = Math.ceil(15);
-  max = Math.floor(30);
+  max = Math.floor(90);
   var txt = Math.floor(Math.random() * (max - min) + min); 
 var txtSize= txt + "px";
   console.log(txtSize);
@@ -111,7 +114,7 @@ random_text_size11();
 
 function random_text_size12(min, max){
   min = Math.ceil(15);
-  max = Math.floor(25);
+  max = Math.floor(20);
   var txt = Math.floor(Math.random() * (max - min) + min); 
 var txtSize= txt + "px";
   console.log(txtSize);
@@ -120,8 +123,8 @@ var txtSize= txt + "px";
 random_text_size12();
 
 function random_text_size13(min, max){
-  min = Math.ceil(15);
-  max = Math.floor(100);
+  min = Math.ceil(10);
+  max = Math.floor(50);
   var txt = Math.floor(Math.random() * (max - min) + min); 
 var txtSize= txt + "px";
   console.log(txtSize);
@@ -171,8 +174,8 @@ random_text_size17();
 
 
 function random_text_size18(min, max){
-  min = Math.ceil(70);
-  max = Math.floor(100);
+  min = Math.ceil(10);
+  max = Math.floor(80);
   var txt = Math.floor(Math.random() * (max - min) + min); 
 var txtSize= txt + "px";
   console.log(txtSize);
@@ -202,7 +205,7 @@ random_text_size20();
 
 function random_text_size21(min, max){
   min = Math.ceil(12);
-  max = Math.floor(90);
+  max = Math.floor(50);
   var txt = Math.floor(Math.random() * (max - min) + min); 
 var txtSize= txt + "px";
   console.log(txtSize);
@@ -242,7 +245,7 @@ random_text_size24();
 
 function random_text_size25(min, max){
   min = Math.ceil(15);
-  max = Math.floor(100);
+  max = Math.floor(25);
   var txt = Math.floor(Math.random() * (max - min) + min); 
 var txtSize= txt + "px";
   console.log(txtSize);
@@ -511,8 +514,8 @@ numberRandomizerX25();
 // ///
 
 function numberRandomizerY1(min,max){
-  min = Math.ceil(800);
-  max = Math.floor(1000);
+  min = Math.ceil(1000);
+  max = Math.floor(1500);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
      console.log(yValueTest);
@@ -521,8 +524,8 @@ function numberRandomizerY1(min,max){
 numberRandomizerY1();
 
 function numberRandomizerY2(min,max){
-  min = Math.ceil(610);
-  max = Math.floor(1600);
+  min = Math.ceil(1610);
+  max = Math.floor(1900);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
      console.log(yValueTest);
@@ -531,8 +534,8 @@ function numberRandomizerY2(min,max){
 numberRandomizerY2();
 
 function numberRandomizerY3(min,max){
-  min = Math.ceil(510);
-  max = Math.floor(800);
+  min = Math.ceil(1510);
+  max = Math.floor(1800);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
      console.log(yValueTest);
@@ -541,8 +544,8 @@ function numberRandomizerY3(min,max){
 numberRandomizerY3();
 
 function numberRandomizerY4(min,max){
-  min = Math.ceil(810);
-  max = Math.floor(1000);
+  min = Math.ceil(1810);
+  max = Math.floor(1900);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
      console.log(yValueTest);
@@ -551,8 +554,8 @@ function numberRandomizerY4(min,max){
 numberRandomizerY4();
 
 function numberRandomizerY5(min,max){
-  min = Math.ceil(1100);
-  max = Math.floor(1300);
+  min = Math.ceil(1600);
+  max = Math.floor(2000);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
      console.log(yValueTest);
@@ -561,8 +564,8 @@ function numberRandomizerY5(min,max){
 numberRandomizerY5();
 
 function numberRandomizerY6(min,max){
-  min = Math.ceil(800);
-  max = Math.floor(1500);
+  min = Math.ceil(1800);
+  max = Math.floor(2500);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
      console.log(yValueTest);
@@ -571,8 +574,8 @@ function numberRandomizerY6(min,max){
 numberRandomizerY6();
 
 function numberRandomizerY7(min,max){
-  min = Math.ceil(310);
-  max = Math.floor(400);
+  min = Math.ceil(1310);
+  max = Math.floor(2400);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
      console.log(yValueTest);
@@ -581,8 +584,8 @@ function numberRandomizerY7(min,max){
 numberRandomizerY7();
 
 function numberRandomizerY8(min,max){
-  min = Math.ceil(710);
-  max = Math.floor(800);
+  min = Math.ceil(1710);
+  max = Math.floor(1800);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
      console.log(yValueTest);
@@ -591,8 +594,8 @@ function numberRandomizerY8(min,max){
 numberRandomizerY8();
 
 function numberRandomizerY9(min,max){
-  min = Math.ceil(210);
-  max = Math.floor(300);
+  min = Math.ceil(1210);
+  max = Math.floor(2300);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
      console.log(yValueTest);
@@ -612,8 +615,8 @@ function numberRandomizerY10(min,max){
 numberRandomizerY10();
 
 function numberRandomizerY11(min,max){
-  min = Math.ceil(710);
-  max = Math.floor(800);
+  min = Math.ceil(1710);
+  max = Math.floor(1800);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
      console.log(yValueTest);
@@ -623,8 +626,8 @@ numberRandomizerY11();
 
 
 function numberRandomizerY12(min,max){
-  min = Math.ceil(910);
-  max = Math.floor(1300);
+  min = Math.ceil(1910);
+  max = Math.floor(2300);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
      console.log(yValueTest);
@@ -633,8 +636,8 @@ function numberRandomizerY12(min,max){
 numberRandomizerY12();
 
 function numberRandomizerY13(min,max){
-  min = Math.ceil(910);
-  max = Math.floor(1000);
+  min = Math.ceil(1910);
+  max = Math.floor(2000);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
      console.log(yValueTest);
@@ -643,8 +646,8 @@ function numberRandomizerY13(min,max){
 numberRandomizerY13();
 
 function numberRandomizerY14(min,max){
-  min = Math.ceil(200);
-  max = Math.floor(400);
+  min = Math.ceil(1200);
+  max = Math.floor(2400);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
      console.log(yValueTest);
@@ -653,8 +656,8 @@ function numberRandomizerY14(min,max){
 numberRandomizerY14();
 
 function numberRandomizerY15(min,max){
-  min = Math.ceil(600);
-  max = Math.floor(1700);
+  min = Math.ceil(1600);
+  max = Math.floor(700);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
      console.log(yValueTest);
@@ -663,7 +666,7 @@ function numberRandomizerY15(min,max){
 numberRandomizerY15();
 
 function numberRandomizerY16(min,max){
-  min = Math.ceil(300);
+  min = Math.ceil(1300);
   max = Math.floor(2000);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
@@ -703,8 +706,8 @@ function numberRandomizerY19(min,max){
 numberRandomizerY19();
 
 function numberRandomizerY20(min,max){
-  min = Math.ceil(510);
-  max = Math.floor(700);
+  min = Math.ceil(810);
+  max = Math.floor(1700);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
      console.log(yValueTest);
@@ -723,7 +726,7 @@ function numberRandomizerY21(min,max){
 numberRandomizerY21();
 
 function numberRandomizerY22(min,max){
-  min = Math.ceil(510);
+  min = Math.ceil(810);
   max = Math.floor(900);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
@@ -734,7 +737,7 @@ numberRandomizerY22();
 
 function numberRandomizerY23(min,max){
   min = Math.ceil(910);
-  max = Math.floor(1000);
+  max = Math.floor(2000);
      var yValue = Math.floor((Math.random() * (max - min) + min)); 
      var yValueTest= yValue + "px";
      console.log(yValueTest);
@@ -821,6 +824,8 @@ $("#set5_phrase").mouseout(function(){
 });
 });
 
+
+
 $(document).ready(function(){
   $("#set6_phrase").mouseover(function(){
    $("#setimages_1_6").css("opacity", "100%");
@@ -843,6 +848,7 @@ $("#set7_phrase").mouseout(function(){
 });
 });
 
+
 $(document).ready(function(){
   $("#set8_phrase").mouseover(function(){
    $("#setimages_1_8").css("opacity", "100%");
@@ -853,6 +859,7 @@ $("#set8_phrase").mouseout(function(){
 
 });
 });
+
 
 $(document).ready(function(){
   $("#set9_phrase").mouseover(function(){
@@ -877,18 +884,194 @@ $("#set10_phrase").mouseout(function(){
 });
 
 
+$(document).ready(function(){
+  $("#set11_phrase").mouseover(function(){
+   $("#setimages_1_11").css("opacity", "100%");
+});
 
-// function random_color() {
-//     var x = Math.floor(Math.random() * 256);
-//     var y = Math.floor(Math.random() * 256);
-//     var z = Math.floor(Math.random() * 256);
-//     var textColor = "rgb(" + x + "," + y + "," + z + ")";
-//     console.log(textColor);
+$("#set11_phrase").mouseout(function(){
+  $("#setimages_1_11").css("opacity", "0%");
 
-//     document.style.getElementsByClassName("idiom_phrase").style.color= textColor;
-//     }
+});
+});
 
-// random_color();
+$(document).ready(function(){
+  $("#set12_phrase").mouseover(function(){
+   $("#setimages_1_12").css("opacity", "100%");
+});
+
+$("#set12_phrase").mouseout(function(){
+  $("#setimages_1_12").css("opacity", "0%");
+
+});
+});
+
+$(document).ready(function(){
+  $("#set13_phrase").mouseover(function(){
+   $("#setimages_1_13").css("opacity", "100%");
+});
+
+$("#set13_phrase").mouseout(function(){
+  $("#setimages_1_13").css("opacity", "0%");
+
+});
+});
+
+$(document).ready(function(){
+  $("#set14_phrase").mouseover(function(){
+   $("#setimages_1_14").css("opacity", "100%");
+});
+
+$("#set14_phrase").mouseout(function(){
+  $("#setimages_1_14").css("opacity", "0%");
+
+});
+});
+
+$(document).ready(function(){
+  $("#set15_phrase").mouseover(function(){
+   $("#setimages_1_15").css("opacity", "100%");
+});
+
+$("#set15_phrase").mouseout(function(){
+  $("#setimages_1_15").css("opacity", "0%");
+
+});
+});
+
+
+$(document).ready(function(){
+  $("#set16_phrase").mouseover(function(){
+   $("#setimages_1_16").css("opacity", "100%");
+});
+
+$("#set16_phrase").mouseout(function(){
+  $("#setimages_1_16").css("opacity", "0%");
+
+});
+});
+
+
+$(document).ready(function(){
+  $("#set17_phrase").mouseover(function(){
+   $("#setimages_1_17").css("opacity", "100%");
+});
+
+$("#set17_phrase").mouseout(function(){
+  $("#setimages_1_17").css("opacity", "0%");
+
+});
+});
+
+
+$(document).ready(function(){
+  $("#set18_phrase").mouseover(function(){
+   $("#setimages_1_18").css("opacity", "100%");
+});
+
+$("#set18_phrase").mouseout(function(){
+  $("#setimages_1_18").css("opacity", "0%");
+
+});
+});
+
+
+$(document).ready(function(){
+  $("#set19_phrase").mouseover(function(){
+   $("#setimages_1_19").css("opacity", "100%");
+});
+
+$("#set19_phrase").mouseout(function(){
+  $("#setimages_1_19").css("opacity", "0%");
+
+});
+});
+
+
+$(document).ready(function(){
+  $("#set20_phrase").mouseover(function(){
+   $("#setimages_1_20").css("opacity", "100%");
+});
+
+$("#set20_phrase").mouseout(function(){
+  $("#setimages_1_20").css("opacity", "0%");
+
+});
+});
+
+$(document).ready(function(){
+  $("#set21_phrase").mouseover(function(){
+   $("#setimages_1_21").css("opacity", "100%");
+});
+
+$("#set21_phrase").mouseout(function(){
+  $("#setimages_1_21").css("opacity", "0%");
+
+});
+});
+
+$(document).ready(function(){
+  $("#set22_phrase").mouseover(function(){
+   $("#setimages_1_22").css("opacity", "100%");
+});
+
+$("#set22_phrase").mouseout(function(){
+  $("#setimages_1_22").css("opacity", "0%");
+
+});
+});
+
+$(document).ready(function(){
+  $("#set23_phrase").mouseover(function(){
+   $("#setimages_1_23").css("opacity", "100%");
+});
+
+$("#set23_phrase").mouseout(function(){
+  $("#setimages_1_23").css("opacity", "0%");
+
+});
+});
+
+$(document).ready(function(){
+  $("#set24_phrase").mouseover(function(){
+   $("#setimages_1_24").css("opacity", "100%");
+});
+
+$("#set24_phrase").mouseout(function(){
+  $("#setimages_1_24").css("opacity", "0%");
+
+});
+});
+
+
+$(document).ready(function(){
+  $("#set25_phrase").mouseover(function(){
+   $("#setimages_1_25").css("opacity", "100%");
+});
+
+$("#set25_phrase").mouseout(function(){
+  $("#setimages_1_25").css("opacity", "0%");
+
+});
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
